@@ -1,12 +1,6 @@
 EasySet24 - Hotel Booking System
 Installation Guide
 
-# 1. Prerequisites
-   PHP >= 8.1
-   Composer
-   Node.js & NPM
-   MySQL
-   
 `git clone https://github.com/tutisanitako/hotel_booking.git`
 `cd hotel_booking`
 
