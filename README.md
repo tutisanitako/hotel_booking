@@ -1,5 +1,5 @@
-EasySet24 - Hotel Booking System
-Installation Guide
+# EasySet24 - Hotel Booking System
+# Installation Guide
 
 `git clone https://github.com/tutisanitako/hotel_booking.git`
 `cd hotel_booking`
