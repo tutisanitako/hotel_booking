@@ -7,32 +7,19 @@ Installation Guide
    Node.js & NPM
    MySQL
    
-# 2. Clone & SetupBash
 `git clone https://github.com/tutisanitako/hotel_booking.git`
 `cd hotel_booking`
 
-# 3. Install PHP dependencies
 `composer install`
 
-# 4. Install Frontend dependencies
 `npm install && npm run build`
 
-# 5. Environment Configuration
 `cp .env.example .env`
 `php artisan key:generate`
 
-# 6. Configure your database credentials in the .env file:
-`DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=easyset24
-DB_USERNAME=root
-DB_PASSWORD=`
-
-# 7. Run migrations to create tables
 `php artisan migrate`
 
-## 8. Custom Commands (Automation)
+## Custom Commands (Automation)
 
 
 |           Command           |            Description                  |                Usage Example                |
