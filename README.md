@@ -8,29 +8,29 @@ Installation Guide
    MySQL
    
 # 2. Clone & SetupBash
-git clone https://github.com/tutisanitako/hotel_booking.git
-cd hotel_booking
+`git clone https://github.com/tutisanitako/hotel_booking.git`
+`cd hotel_booking`
 
 # 3. Install PHP dependencies
-composer install
+`composer install`
 
 # 4. Install Frontend dependencies
-npm install && npm run build
+`npm install && npm run build`
 
 # 5. Environment Configuration
-cp .env.example .env
-php artisan key:generate
+`cp .env.example .env`
+`php artisan key:generate`
 
 # 6. Configure your database credentials in the .env file:
-DB_CONNECTION=mysql
+`DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=easyset24
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=`
 
 # 7. Run migrations to create tables
-php artisan migrate
+`php artisan migrate`
 
 ## 8. Custom Commands (Automation)
 
